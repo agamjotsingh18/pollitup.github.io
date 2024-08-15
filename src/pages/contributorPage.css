@@ -1,0 +1,105 @@
+body {
+  background: transparent; 
+  padding: 0 24px;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container {
+  text-align: center;
+}
+
+.logoContainer {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.logo {
+  width: 130px;
+  height: 50px;
+  padding: 10px;
+  padding-left: 15px;
+}
+
+.contentContainer {
+  margin-top: 100px;
+}
+
+.contributeTitle {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-family: Arial, sans-serif;
+}
+
+.pageHeading {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.motivation {
+  font-size: 20px;
+  margin: 10px;
+  margin-bottom: 25px;
+  font-weight: medium;
+  font-style: italic;
+}
+
+.githubButton {
+  display: inline-block;
+  padding: 20px 40px;
+  background-color: #24292e;
+  position: relative;
+  left: 620px;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 10px;
+  text-decoration: none;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  width: 200px;
+}
+
+.githubIcon {
+  margin-right: 5px;
+}
+
+.startContributingText {
+  font-weight: normal;
+  font-size: 14px;
+}
+
+.contributorsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.contributorItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+}
+
+.avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.username {
+  margin-top: 10px;
+  font-weight: bold;
+}
