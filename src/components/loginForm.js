@@ -11,7 +11,6 @@ export const LoginForm = (props) => {
           {(props.errorObj.email && props.errorObj.emailError)? <p className='error'>{props.errorObj.emailError}</p>:null}
         </FormControl>
         <PasswordField value = {props.password} name="password" id="password" onChange = {props.change} />
-        {(props.errorObj.password && props.errorObj.passwordError)? <p className='error' style={{textAlign: "center"}}>{props.errorObj.passwordError}</p>:null}
 	<Link href="/forgot-password" fontSize="sm" style={{position : "relative" , textAlign : "right" }} > Forgot password? </Link>
         <Button type="submit" colorScheme="blue" size="lg" fontSize="md" onClick = {props.signIn}>
           Log in
